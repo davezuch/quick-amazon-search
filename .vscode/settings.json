@@ -1,0 +1,12 @@
+{
+  "[git-commit]": {
+    "editor.rulers": [72],
+    "rewrap.autoWrap.enabled": true
+  },
+  "[markdown]": {
+    "editor.rulers": [80],
+    "rewrap.autoWrap.enabled": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}
