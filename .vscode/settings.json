@@ -8,5 +8,11 @@
     "rewrap.autoWrap.enabled": true
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "eslint.nodePath": "node",
+  "eslint.validate": ["json"],
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.tsserver.maxTsServerMemory": 8192,
+  "typescript.tsserver.nodePath": "node"
 }
