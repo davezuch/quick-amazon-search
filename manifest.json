@@ -11,6 +11,5 @@
   },
   "manifest_version": 3,
   "name": "Quick Amazon Search",
-  "permissions": ["tabs"],
   "version": "0.1.0"
 }

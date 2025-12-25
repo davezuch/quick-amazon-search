@@ -87,7 +87,7 @@ function SearchBox() {
     if (!searchQuery.trim()) return
 
     const amazonUrl = `https://www.amazon.com/s?k=${encodeURIComponent(searchQuery)}`
-    chrome.tabs.create({ url: amazonUrl })
+    window.open(amazonUrl, "_blank")
   }
 
   // Handle keyboard navigation using pattern matching
