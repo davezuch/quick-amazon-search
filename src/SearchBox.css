@@ -2,12 +2,30 @@
   position: relative;
 }
 
+.search-icon {
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.search-icon img {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
 .search-input {
   box-sizing: border-box;
   font-family: inherit;
   font-size: inherit;
   width: 100%;
   padding: 0.5rem;
+  padding-left: 2rem;
   border: 1px solid #ddd;
   border-radius: 4px;
   outline: none;

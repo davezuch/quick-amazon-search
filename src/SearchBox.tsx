@@ -1,5 +1,6 @@
 import { Data, Effect, Match, pipe } from "effect"
 import * as React from "react"
+import amazonLogo from "./assets/amazon.svg"
 import "./SearchBox.css"
 
 export default SearchBox
@@ -129,6 +130,9 @@ function SearchBox() {
 
   return (
     <div className="search-box">
+      <div className="search-icon" onClick={() => inputRef.current?.focus()}>
+        <img src={amazonLogo} alt="Amazon" />
+      </div>
       <input
         ref={inputRef}
         type="text"
