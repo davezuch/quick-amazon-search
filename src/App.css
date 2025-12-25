@@ -1,5 +1,10 @@
 .app {
   padding: 1rem;
-  min-width: 300px;
-  max-width: 400px;
+  width: 400px;
+}
+
+.app h1 {
+  margin: 0 0 1rem 0;
+  font-size: 1.25rem;
+  text-align: center;
 }

@@ -4,8 +4,9 @@
   },
 
   "description": "Quick Amazon search with autocomplete",
+  "host_permissions": ["https://completion.amazon.com/*"],
   "manifest_version": 3,
   "name": "Quick Amazon Search",
-  "permissions": [],
+  "permissions": ["tabs"],
   "version": "0.1.0"
 }
